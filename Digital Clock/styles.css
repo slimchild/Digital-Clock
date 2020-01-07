@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+  background: url("./pattern (1).png");
+}
+
+.main {
+  background: #B2FFFF;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 50px;
+}
+
+.clockname {
+  width: 160px;
+  background: black;
+  color: #B2FFFF;
+  padding: 5px 10;
+  font-family: shapiro;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  left: 118px;
+}
+
+.centerbox {
+  backround: #EBEBEB;
+  text-align: center;
+  font-size: 60px;
+  height: 100%;
+  font-family: Share Tech;
+}
